@@ -25,7 +25,7 @@ const PhotoDetails = () => {
                     </div>
                 ) : (photo &&
                     <>
-                        <h1 className='fs-1 mt-2'>{photo.data.title.toUpperCase()}</h1>
+                        <h1 className='fs-2 mt-4'>{photo.data.title.toUpperCase()}</h1>
                         <div className='mt-4'>
                             <img src={photo.data.url} style={{ width: 300, height: 300 }} alt=""/>
                             <img src={photo.data.thumbnailUrl} className='ms-2' alt="" />
